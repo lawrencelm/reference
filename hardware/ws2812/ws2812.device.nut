@@ -115,7 +115,7 @@ function test(d = null) {
   pixelStrip.writePixel(pixels[0],[0,0,0]);
   for(local i = 1; i < 5; i++) {
       local b = math.pow(2, i);
-      pixelStrip.writePixel(pixels[i], [ b, b / 2, b * 1.5 ]);
+      pixelStrip.writePixel(pixels[i], [ b, 75, b * 1.5 ]);
   }
   
   pixelStrip.writeFrame();
