@@ -100,7 +100,7 @@ class NeoPixels {
 
 /* RUNTIME STARTS HERE -------------------------------------------------------*/
 
-const NUMPIXELS = 24;
+const NUMPIXELS = 16;
 const DELAY = 0.025;
 
 spi <- hardware.spi257;
